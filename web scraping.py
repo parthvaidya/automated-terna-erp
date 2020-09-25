@@ -39,7 +39,7 @@ ass_list.click()
 try:
     elem = driver.find_element_by_xpath("/html/body/table/tbody/tr/td[2]/form/table/tbody/tr[2]/td/font/b")
 except NoSuchElementException:  #spelling error making this code not work as expected
-    print('no elemnet')
+    print('No element is found')
 
 
 # driver.forward()
